@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBackend.Application.WebApi", "ChatBackend.Application.WebApi\ChatBackend.Application.WebApi.csproj", "{42D912B0-E855-409B-B32D-C26534B48F92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBackend.Core", "ChatBackend.Core\ChatBackend.Core.csproj", "{7664E557-0405-47A8-97D5-9D0F444D8A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBackend.Infrastructure", "ChatBackend.Infrastructure\ChatBackend.Infrastructure.csproj", "{F54E49C5-57F4-4207-8C18-1A6F9B478179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D912B0-E855-409B-B32D-C26534B48F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D912B0-E855-409B-B32D-C26534B48F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D912B0-E855-409B-B32D-C26534B48F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D912B0-E855-409B-B32D-C26534B48F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D912B0-E855-409B-B32D-C26534B48F92}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7664E557-0405-47A8-97D5-9D0F444D8A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7664E557-0405-47A8-97D5-9D0F444D8A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7664E557-0405-47A8-97D5-9D0F444D8A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7664E557-0405-47A8-97D5-9D0F444D8A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54E49C5-57F4-4207-8C18-1A6F9B478179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54E49C5-57F4-4207-8C18-1A6F9B478179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54E49C5-57F4-4207-8C18-1A6F9B478179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54E49C5-57F4-4207-8C18-1A6F9B478179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

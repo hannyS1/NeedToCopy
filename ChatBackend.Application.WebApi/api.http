@@ -1,0 +1,37 @@
+GET localhost:8000/users
+###
+
+GET localhost:8000/api/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYmYiOjE2NzYxMzM1MDEsImV4cCI6MTY3NjIxOTkwMSwiaWF0IjoxNjc2MTMzNTAxfQ.DMIYd7DscRTdURjUkKgw0asLXZ8D3L-ijp6oXfcNFlo
+###
+
+POST localhost:8000/api/auth/jwt/login-password
+Content-Type: application/json
+
+{
+  "username": "hi",
+  "password": "not hi"
+}
+###
+
+POST localhost:8000/api/rooms/1/messages
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYmYiOjE2NzYyMjEwOTUsImV4cCI6MTY3NjMwNzQ5NSwiaWF0IjoxNjc2MjIxMDk1fQ.3mXDiPJ5XII7A0VJw1FHHnoWHbjPXTYqGIzP5pC8fQw
+
+{
+  "text": "hello man"  
+}
+###
+
+GET localhost:8000/api/rooms/1/messages
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYmYiOjE2NzYyMjEwOTUsImV4cCI6MTY3NjMwNzQ5NSwiaWF0IjoxNjc2MjIxMDk1fQ.3mXDiPJ5XII7A0VJw1FHHnoWHbjPXTYqGIzP5pC8fQw
+###
+
+POST localhost:8000/api/rooms/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYmYiOjE2NzYyMjEwOTUsImV4cCI6MTY3NjMwNzQ5NSwiaWF0IjoxNjc2MjIxMDk1fQ.3mXDiPJ5XII7A0VJw1FHHnoWHbjPXTYqGIzP5pC8fQw
+
+{
+  "userId": 3
+}
+###
